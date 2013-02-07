@@ -1,0 +1,9 @@
+Title: Security Holes Discovered in HUSTOJ
+Author: LIU Yu <pineapple.liu@gmail.com>
+Source: OpenJudge Alliance Technical Report (TR-OJA-201112A)
+Date: 2011/12/09 (last revised on 2011/12/25)
+Version: 1.4
+License: Creative Commons Attribution-ShareAlike 3.0 License (CC BY-SA 3.0)
+URL: http://openjudge.net/TR/201112A
+
+Abstract: Security vulnerabilities have been discovered in the open-source online judge system HUSTOJ (project site http://code.google.com/p/hustoj/). Due to a series of design pitfalls and defects in the judge_client component of HUSTOJ, attackers can submit malicious solution programs to bypass most security restrictions of HUSTOJ. Validated security issues include, but not limit to, 1) executing arbitrary binary program on the judge server, 2) leak of system information, 3) leak of test data, etc.
